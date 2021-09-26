@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Timetable]
+(
+	[From] NVARCHAR(50) NOT NULL PRIMARY KEY IDENTITY, 
+    [To] NVARCHAR(50) NOT NULL, 
+    [Time] TIME NOT NULL 
+)
